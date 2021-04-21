@@ -10,7 +10,5 @@ Muhammad Zain (1221139)
 Hammad Hussain (1220233)
 
 Batch : 1908G2
-
 Faculty : Sir Sohail Ali
-
 Coordinator : Sir Zeeshan Ahmed
