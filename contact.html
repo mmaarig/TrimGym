@@ -1,0 +1,247 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trim Gym</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+   
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+ <link rel="stylesheet" href="assets/css/Footer-with-logo.css">
+ <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+
+
+  <div class="loader"></div>
+  <div id="myDiv">
+    <!--HEADER-->
+    <div class="header">
+      <div class="bg-color">
+        <header id="main-header">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <!----logo--->
+                <header id="main-header"><a href="index.html"><img src="gallery/img/logo-trim-gym 3.png" height="115" width="150" alt="Logo" style="margin-top:-30px;"></a>
+                <!----logo--->
+            
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                   <li class=""><a href="index.html">Home</a></li>
+                  <li class=""><a href="about us.html">About</a></li>
+                  <li class=""><a href="Therapy.html">Therapy</a></li>
+                  <li class=""><a href="gallery.html">Gallery</a></li>
+                  <li class="active"><a href="contact.html">Contact Us</a></li>
+                  <li class=""><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-fKQuQuisv9NhkJHoJEzijV5VEeyvJ1WN-bcMb7tY_xMjxQ/viewform?usp=sf_link" target="_blank">Feedback</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        
+         <br>
+         <br>
+         <br>
+         <br>
+         <br> 
+         <br>  
+
+<div class="col-md-12">
+<div class="figure-caption text-center"><h2>Our Locations</h2></div><hr>
+
+
+</div>
+
+<div class="container">
+
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-6 ">
+<div class="figure ">
+<div id="map" style="height:400px; width:100%;"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6PWX9g6CXPTQ-sbKFmQ5jUjNOTi2a5ww&callback=initMap"></script>
+
+<script>
+function initMap() 
+{
+	var la=24.798319;
+	var long=67.044650;
+	var map = new google.maps.Map(document.getElementById('map'),{center: {lat: la,lng: long},zoom:18});
+	var mark = new google.maps.Marker({position:{lat:la,lng:long},map:map});
+	}
+	if(navigator.geolocation)
+	{initMap();
+	}
+	else
+	{
+		alert("Your browser does not support this map")
+		}
+</script>
+<div class="figure-caption text-center"><h2>Karachi</a></h2><h5>12/C 1-3rd Floor,Street 6, Badar Commercial Ext، Saba Ave, Badar Commercial Area DHA 5, Karachi</h5></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="figure ">
+<div id="map2" style="height:400px; width:100%;"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6PWX9g6CXPTQ-sbKFmQ5jUjNOTi2a5ww&callback=initMap"></script>
+
+<script>
+function initMap()  
+{
+	var la=31.464640;
+	var long=74.385658;
+	var map = new google.maps.Map(document.getElementById('map2'),{center: {lat: la,lng: long},zoom:18});
+	var mark = new google.maps.Marker({position:{lat:la,lng:long},map:map});
+	}
+	if(navigator.geolocation)
+	{initMap();
+	}
+	else
+	{
+		alert("Your browser does not support this map")
+		}
+</script><div class="figure-caption text-center"><h2>Lahore</h2><h5>186, Block Phase 4C DHA, Sector CCA Dha Phase 4, Lahore<h5></div>
+</div>
+</div>
+</div>
+
+
+<hr><br>
+<div class="container">
+<div class="">
+<div class="display-4"><h2><p class="text-center" style="color:#FFFFFF; width:400px; margin:auto">Connect with us</h2></div>
+</p>
+</div>
+
+<br>
+<form>
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName"><h6>Name</h6></label>
+      <input type="text" class="form-control" id="inputText" placeholder="Full Name" required pattern="[a-z A-Z]*">
+    </div>
+  </div>
+
+
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4"><h6>Email</h6></label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="you@email.com" required pattern="[a-zA-Z@ 0-9]*">
+    </div>
+    
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-12">
+    <label for="inputAddress"><h6>Home Address</h6></label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required pattern="[a-zA-Z 0-9]*">
+  </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-12">
+    <label for="inputAddress2"><h6>Message</h6></label>
+    <input type="text" class="form-control" id="inputMessage" placeholder="Your message here" required pattern="[a-zA-Z 0-9 @]*">
+  </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputCity"><h6>Cell Number (e.g +92-300-1234567)</h6></label>
+      <input type="text" class="form-control" id="inputCity" placeholder="+92-3XX-XXXXXXX" required pattern="[+]{1}[9]{1}[2]{1}-[3]{1}[0-9]{2}-[0-9]{7}">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState"><h6>CNIC (e.g 12345-1234567-1)</h6></label>
+      <input type="inputState" class="form-control" id="inputCity" placeholder="XXXXX-XXXXXXX-X" required pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}">
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputZip"><h6>Postal Code (e.g 12345)</h6></label>
+      <input type="text" class="form-control" id="inputZip" placeholder="XXXXX" required pattern="[0-9]{5}">
+    </div>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+<!-- Site footer -->
+    <div class="content">
+</div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5 style="color:#ff0000;">Get started</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5 style="color:#ff0000;">Organization</h5>
+                    <ul>
+                        <li><a href="about us.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5 style="color:#ff0000;">Support</h5>
+                    <ul>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-fKQuQuisv9NhkJHoJEzijV5VEeyvJ1WN-bcMb7tY_xMjxQ/viewform?usp=sf_link" target="_blank">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 info">
+                    <h5 style="color:#ff0000;">Copyright &copy;</h5>
+                    <p>All Rights Reserved 2020 </p>
+                </div>
+            </div>
+        </div>
+        <div class="second-bar">
+           <div class="container">
+                <a href="gym trim.html"><img src="gallery/img/logo-trim-gym 3.png" height="90" width="120" alt="Logo" style="margin-left:-680px;"></a>
+                <div class="social-icons">
+                    <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://myaccount.google.com/intro" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+<!---------end footer------->
+</body>
+</html>
